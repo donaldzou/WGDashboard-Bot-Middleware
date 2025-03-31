@@ -1,0 +1,7 @@
+[2025-03-31 19:48:52 +0800] [77920] [INFO] Starting gunicorn 23.0.0
+[2025-03-31 19:48:52 +0800] [77920] [INFO] Listening at: http://0.0.0.0:10087 (77920)
+[2025-03-31 19:48:52 +0800] [77920] [INFO] Using worker: sync
+[2025-03-31 19:48:52 +0800] [77921] [INFO] Booting worker with pid: 77921
+[2025-03-31 19:49:12 +0800] [77920] [INFO] Handling signal: term
+[2025-03-31 19:49:14 +0800] [77921] [INFO] Worker exiting (pid: 77921)
+[2025-03-31 19:49:14 +0800] [77920] [INFO] Shutting down: Master
