@@ -61,4 +61,4 @@ def API_Completion():
 
 
 if __name__ == "__main__":
-    app.run(port=10087, threaded=True)
+    app.run(port=10087, threaded=True, host='0.0.0.0')
