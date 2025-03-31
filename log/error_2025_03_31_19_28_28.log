@@ -1,0 +1,15 @@
+[2025-03-31 19:28:28 +0800] [77444] [INFO] Starting gunicorn 23.0.0
+[2025-03-31 19:28:28 +0800] [77444] [INFO] Listening at: http://0.0.0.0:10087 (77444)
+[2025-03-31 19:28:28 +0800] [77444] [INFO] Using worker: sync
+[2025-03-31 19:28:28 +0800] [77445] [INFO] Booting worker with pid: 77445
+ * Serving Flask app 'WGDashboard Bot Middleware'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10087
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [31/Mar/2025 19:28:51] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [31/Mar/2025 19:28:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [31/Mar/2025 19:29:04] "GET /api/health HTTP/1.1" 200 -
+[2025-03-31 19:29:11 +0800] [77444] [INFO] Handling signal: int
+[2025-03-31 19:29:11 +0800] [77445] [INFO] Worker exiting (pid: 77445)
+[2025-03-31 19:29:11 +0800] [77444] [INFO] Shutting down: Master
