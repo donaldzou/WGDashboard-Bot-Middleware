@@ -9,4 +9,4 @@ accesslog = f"./log/access_{date}.log"
 log_level = "debug"
 capture_output = True
 errorlog = f"./log/error_{date}.log"
-daemon = True
+# daemon = True
