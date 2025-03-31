@@ -60,4 +60,5 @@ def API_Completion():
     return Response(AgentCompletion(data['messages']), mimetype="text/event-stream")
 
 
-app.run(port=10087, threaded=True)
+if __name__ == "__main__":
+    app.run(port=10087, threaded=True)
